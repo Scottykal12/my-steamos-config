@@ -1,0 +1,87 @@
+{
+  "name": "Game Cover Shine Animation Color",
+  "author": "FlanGrande",
+  "version": "v1.0",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Shine Color": {
+      "type": "dropdown",
+      "values": {
+        "Custom Color": {
+          "shared.css": [
+            "SP"
+          ]
+        },
+        "Emerald": {
+          "defaultColors/green.css": [
+            "SP"
+          ]
+        },
+        "Sapphire": {
+          "defaultColors/blue.css": [
+            "SP"
+          ]
+        },
+        "Amethyst": {
+          "defaultColors/purple.css": [
+            "SP"
+          ]
+        },
+        "Bubblegum": {
+          "defaultColors/pink.css": [
+            "SP"
+          ]
+        },
+        "Ruby": {
+          "defaultColors/red.css": [
+            "SP"
+          ]
+        },
+        "Amber": {
+          "defaultColors/orange.css": [
+            "SP"
+          ]
+        },
+        "Obsidian": {
+          "defaultColors/black.css": [
+            "SP"
+          ]
+        },
+        "Bronze": {
+          "defaultColors/bronze.css": [
+            "SP"
+          ]
+        },
+        "Silver": {
+          "defaultColors/silver.css": [
+            "SP"
+          ]
+        },
+        "Gold": {
+          "defaultColors/golden.css": [
+            "SP"
+          ]
+        }
+      },
+      "components": [
+        {
+          "name": "Base Color",
+          "type": "color-picker",
+          "on": "Custom Color",
+          "default": "#FFFFFF",
+          "css_variable": "flangrande-game-cover-shine-color",
+          "tabs": [
+            "SP"
+          ]
+        }
+      ]
+    }
+  },
+  "id": "a55d59e2-17ff-41f2-a672-45864169d394"
+}

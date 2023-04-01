@@ -1,0 +1,36 @@
+@keyframes appportrait_focusAnimation_8N-VO {
+    0% {
+        background-position: 130% 0%;
+        opacity: 0.8;
+    }
+
+    100% {
+        background-position: -30% 0%;
+        opacity: 0.8;
+    }
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.3) 36%, var(--flangrande-game-cover-shine-color) 49%, var(--flangrande-game-cover-shine-color) 51%, rgba(255, 255, 255, 0.3) 64%, rgba(255, 255, 255, 0.2) 70%);
+    background-size: 300% 100%;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity .1s cubic-bezier(0.16, 0.86, 0.43, 0.99);
+    mix-blend-mode: overlay;
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg:focus::after {
+    animation-name:appportrait_focusAnimation_8N-VO;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    transition:opacity .3s cubic-bezier(0.17, 0.45, 0.14, 0.83);
+    background-position: -30% 0%;
+    opacity: 0.8;
+}

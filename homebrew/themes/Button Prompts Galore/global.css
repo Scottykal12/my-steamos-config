@@ -1,0 +1,133 @@
+/*---------------------------------------------------------------------------*\
+|        ɀeus' button prompts galore mod for the steam deck css loader:     	  |
+|             https://github.com/suchmememanyskill/SDH-CssLoader            	|
+|      everything is indented so that sublime text can fold by the comments 	|
+|      a lot of info comes from joamjoamjoam's mod, give love to that here: 	|
+|    https://github.com/joamjoamjoam/SteamDeckThemes/tree/main/Icon%20Packer	|
+\*---------------------------------------------------------------------------*/
+
+/* standard buttons */
+	img[src="/steaminputglyphs/shared_button_y.svg"]{  /* face button up (Δ) */
+		content: var(--zbpg-face-up, url("/steaminputglyphs/shared_button_y.svg"));
+	}
+	img[src="/steaminputglyphs/shared_button_a.svg"]{  /* face button down (Χ) */
+		content: var(--zbpg-face-dn, url("/steaminputglyphs/shared_button_a.svg"));
+	}
+	img[src="/steaminputglyphs/shared_button_x.svg"]{  /* face button left (Π) */
+		content: var(--zbpg-face-lf, url("/steaminputglyphs/shared_button_x.svg"));
+	}
+	img[src="/steaminputglyphs/shared_button_b.svg"]{  /* face button right (Ο) */
+		content: var(--zbpg-face-rt, url("/steaminputglyphs/shared_button_b.svg"));
+	}
+
+	img[src="/steaminputglyphs/sd_button_menu.svg"]{  /* menu button start */
+		content: var(--zbpg-menu-srt, url("/steaminputglyphs/sd_button_menu.svg"));
+	}
+	img[src="/steaminputglyphs/sd_button_view.svg"]{  /* menu button select */
+		content: var(--zbpg-menu-slc, url("/steaminputglyphs/sd_button_view.svg"));
+	}
+
+/* directional pad */
+	img[src="/steaminputglyphs/shared_dpad.svg"]{  /* dpad neutral */
+		content: var(--zbpg-dpad-nu, url("/steaminputglyphs/shared_dpad.svg"));
+	}
+
+	img[src="/steaminputglyphs/shared_dpad_up.svg"]{  /* dpad up */
+		content: var(--zbpg-dpad-up, url("/steaminputglyphs/shared_dpad_up.svg"));
+	}
+	img[src="/steaminputglyphs/shared_dpad_down.svg"]{  /* dpad down */
+		content: var(--zbpg-dpad-dn, url("/steaminputglyphs/shared_dpad_down.svg"));
+	}
+	img[src="/steaminputglyphs/shared_dpad_left.svg"]{  /* dpad left */
+		content: var(--zbpg-dpad-lf, url("/steaminputglyphs/shared_dpad_left.svg"));
+	}
+	img[src="/steaminputglyphs/shared_dpad_right.svg"]{  /* dpad right */
+		content: var(--zbpg-dpad-rt, url("/steaminputglyphs/shared_dpad_right.svg"));
+	}
+
+/* back buttons/paddles */
+	img[src="/steaminputglyphs/sd_l1.svg"]{
+		content: var(--zbpg-back-lb, url("/steaminputglyphs/sd_l1.svg"));
+	}
+	img[src="/steaminputglyphs/sd_r1.svg"]{
+		content: var(--zbpg-back-rt, url("/steaminputglyphs/sd_r1.svg"));
+	}
+	img[src="/steaminputglyphs/sd_l2.svg"]{
+		content: var(--zbpg-back-lt, url("/steaminputglyphs/sd_l2.svg"));
+	}
+	img[src="/steaminputglyphs/sd_r2.svg"]{
+		content: var(--zbpg-back-rt, url("/steaminputglyphs/sd_r2.svg"));
+	}
+
+	img[src="/steaminputglyphs/sd_l2_half.svg"]{  /* left trigger soft pull */
+		content: var(--zbpg-back-lt-sf, url("/steaminputglyphs/sd_l2_half.svg"));
+	}
+	img[src="/steaminputglyphs/sd_r2_half.svg"]{  /* right trigger soft pull */
+		content: var(--zbpg-back-rt-sf, url("/steaminputglyphs/sd_r2_half.svg"));
+	}
+
+	img[src="/steaminputglyphs/sd_l4.svg"]{  /* grip paddle top left */
+		content: var(--zbpg-grip-tl, url("/steaminputglyphs/sd_l4.svg"));
+	}
+	img[src="/steaminputglyphs/sd_r4.svg"]{  /* grip paddle top right */
+		content: var(--zbpg-grip-tr, url("/steaminputglyphs/sd_r4.svg"));
+	}
+	img[src="/steaminputglyphs/sd_l5.svg"]{  /* grip paddle bottom left */
+		content: var(--zbpg-grip-bl, url("/steaminputglyphs/sd_l5.svg"));
+	}
+	img[src="/steaminputglyphs/sd_r5.svg"]{  /* grip paddle bottom right */
+		content: var(--zbpg-grip-br, url("/steaminputglyphs/sd_r5.svg"));
+	}
+
+/* left stick */
+	img[src="/steaminputglyphs/shared_l3.svg"]{
+		content: var(--zbpg-lfst-cl, url("/steaminputglyphs/shared_l3.svg"));
+	}
+	img[src="/steaminputglyphs/shared_lstick_touch.svg"]{
+		content: var(--zbpg-lfst-tc, url("/steaminputglyphs/shared_lstick_touch.svg"));
+	}
+
+	img[src="/steaminputglyphs/shared_lstick.svg"]{
+		content: var(--zbpg-lfst-nu, url("/steaminputglyphs/shared_lstick.svg"));
+	}
+	img[src="/steaminputglyphs/shared_lstick_up.svg"]{
+		content: var(--zbpg-lfst-up, url("/steaminputglyphs/shared_lstick_up.svg"));
+	}
+	img[src="/steaminputglyphs/shared_lstick_down.svg"]{
+		content: var(--zbpg-lfst-dn, url("/steaminputglyphs/shared_lstick_down.svg"));
+	}
+	img[src="/steaminputglyphs/shared_lstick_left.svg"]{
+		content: var(--zbpg-lfst-lf, url("/steaminputglyphs/shared_lstick_left.svg"));
+	}
+	img[src="/steaminputglyphs/shared_lstick_right.svg"]{
+		content: var(--zbpg-lfst-rt, url("/steaminputglyphs/shared_lstick_right.svg"));
+	}
+
+/* right stick */
+	img[src="/steaminputglyphs/shared_r3.svg"]{
+		content: var(--zbpg-rtst-cl, url("/steaminputglyphs/shared_r3.svg"));
+	}
+	img[src="/steaminputglyphs/shared_rstick_touch.svg"]{
+		content: var(--zbpg-rtst-tc, url("/steaminputglyphs/shared_rstick_touch.svg"));
+	}
+
+	img[src="/steaminputglyphs/shared_rstick.svg"]{
+		content: var(--zbpg-rtst-nu, url("/steaminputglyphs/shared_rstick.svg"));
+	}
+	img[src="/steaminputglyphs/shared_rstick_up.svg"]{
+		content: var(--zbpg-rtst-up, url("/steaminputglyphs/shared_rstick_up.svg"));
+	}
+	img[src="/steaminputglyphs/shared_rstick_down.svg"]{
+		content: var(--zbpg-rtst-dn, url("/steaminputglyphs/shared_rstick_down.svg"));
+	}
+	img[src="/steaminputglyphs/shared_rstick_left.svg"]{
+		content: var(--zbpg-rtst-lf, url("/steaminputglyphs/shared_rstick_left.svg"));
+	}
+	img[src="/steaminputglyphs/shared_rstick_right.svg"]{
+		content: var(--zbpg-rtst-rt, url("/steaminputglyphs/shared_rstick_right.svg"));
+	}
+
+/* steam */
+	img[src="/steaminputglyphs/shared_gyro.svg"]{
+		content: var(--zbpg-gyro, url("/steaminputglyphs/shared_gyro.svg"));
+	}

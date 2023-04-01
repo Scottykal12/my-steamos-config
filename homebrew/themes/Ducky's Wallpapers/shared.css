@@ -1,0 +1,45 @@
+:root {
+	--bg-main-color-library: linear-gradient(142deg, rgb(11 130 215) 0%, rgb(83 92 227) 50%, rgb(171 0 197) 100%);
+	--tab-font-color-library: #e2bcff;
+	--tab-font-outline-color-library: #0000000D;
+	--tab-number-color-library: #ffffffff;
+	--selected-tab-color-library: #eb8eff47;
+	--selected-tab-font-color-library: #99d5ff;
+	--selected-tab-number-color-library: #ffffff;
+}
+
+/* Background Gradient */
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+    background: var(--bg-main-color-library);
+}
+
+/*  Tab font color */
+.gamepadlibrary_GamepadLibrary_ZBBhe > .gamepadtabbedpage_GamepadTabbedPage_3IBLc > .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs > .gamepadtabbedpage_TabRow_19z_5 > .gamepadtabbedpage_TabRowTabs_2VQFn > .gamepadtabbedpage_TabsRowScroll_26cOW > .scrollpanel_ScrollPanel_1CXdi > .gamepadtabbedpage_Tab_3eEbS {
+    color: var(--tab-font-color-library);
+ /* Tab font outline */
+  text-shadow:
+    -1px -1px 0 var(--tab-font-outline-color-library),
+     0   -1px 0 var(--tab-font-outline-color-library),
+     1px -1px 0 var(--tab-font-outline-color-library),
+     1px  0   0 var(--tab-font-outline-color-library),
+     1px  1px 0 var(--tab-font-outline-color-library),
+     0    1px 0 var(--tab-font-outline-color-library),
+    -1px  1px 0 var(--tab-font-outline-color-library),
+    -1px  0   0 var(--tab-font-outline-color-library);
+}
+
+/* Selected Tab */
+.gamepadlibrary_GamepadLibrary_ZBBhe > .gamepadtabbedpage_GamepadTabbedPage_3IBLc > .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs > .gamepadtabbedpage_TabRow_19z_5 > .gamepadtabbedpage_TabRowTabs_2VQFn > .gamepadtabbedpage_TabsRowScroll_26cOW > .scrollpanel_ScrollPanel_1CXdi > .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+    background-color: var(--selected-tab-color-library);
+    color: var(--selected-tab-font-color-library);
+}
+
+/* Tab Number */
+.gamepadlibrary_GamepadLibrary_ZBBhe > .gamepadtabbedpage_GamepadTabbedPage_3IBLc > .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs > .gamepadtabbedpage_TabRow_19z_5 > .gamepadtabbedpage_TabRowTabs_2VQFn > .gamepadtabbedpage_TabsRowScroll_26cOW > .scrollpanel_ScrollPanel_1CXdi > .gamepadtabbedpage_Tab_3eEbS > .gamepadtabbedpage_TabCount_1ui4I {
+    color: var(--tab-number-color-library);
+}
+
+/* Tab Number Selected */
+.gamepadlibrary_GamepadLibrary_ZBBhe > .gamepadtabbedpage_GamepadTabbedPage_3IBLc > .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs > .gamepadtabbedpage_TabRow_19z_5 > .gamepadtabbedpage_TabRowTabs_2VQFn > .gamepadtabbedpage_TabsRowScroll_26cOW > .scrollpanel_ScrollPanel_1CXdi > .gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b > .gamepadtabbedpage_TabCount_1ui4I {
+    color: var(--selected-tab-number-color-library);
+}

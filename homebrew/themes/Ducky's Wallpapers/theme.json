@@ -1,0 +1,52 @@
+{
+  "name": "Ducky's Wallpapers",
+  "version": "v1.1",
+  "author": "Ducky/CaSquall",
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "patches": {
+    "Variants": {
+      "default": "Deck",
+      "Deck": {},
+      "Summer": {
+        "variants/summer.css": [
+          "SP"
+        ]
+      },
+      "Watermelon": {
+        "variants/watermelon.css": [
+          "SP"
+        ]
+      },
+      "Lime": {
+        "variants/lime.css": [
+          "SP"
+        ]
+      },
+      "Ducky": {
+        "variants/ducky.css": [
+          "SP"
+        ]
+      },
+      "Dracula": {
+        "variants/dracula.css": [
+          "SP"
+        ]
+      },
+      "Rainbow": {
+        "variants/rainbow.css": [
+          "SP"
+        ]
+      },
+      "Image": {
+        "variants/image.css": [
+          "SP"
+        ]
+      }
+    }
+  },
+  "id": "23861acc-ed91-4492-ba2a-43bab35ca3e0"
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Outrun Theme",
+  "version": "v1.2",
+  "author": "GrodanBool",
+  "inject": {
+    "shared.css": [
+      "SP",
+      "QuickAccess",
+      "MainMenu"
+    ]
+  },
+  "manifest_version": 3,
+  "patches": {
+    "Footer Border": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "footer.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      }
+    },
+    "Button Colors": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "filters.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      }
+    },
+    "Font": {
+      "default": "None",
+      "type": "dropdown",
+      "values": {
+        "None": {},
+        "Commando": {
+          "font/commando.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Good Times": {
+          "font/goodtimes.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      }
+    },
+    "Theme Color 1": {
+      "default": "Cyan",
+      "type": "dropdown",
+      "values": {
+        "White": {
+          "colors/white.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Cyan": {
+          "colors/cyan.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Pink": {
+          "colors/pink.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Red": {
+          "colors/red.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Yellow": {
+          "colors/yellow.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      }
+    },
+    "Theme Color 2": {
+      "default": "Pink",
+      "type": "dropdown",
+      "values": {
+        "White": {
+          "colors/white2.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Cyan": {
+          "colors/cyan2.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Pink": {
+          "colors/pink2.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Red": {
+          "colors/red2.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        },
+        "Yellow": {
+          "colors/yellow2.css": [
+            "SP",
+            "QuickAccess",
+            "MainMenu"
+          ]
+        }
+      }
+    }
+  },
+  "id": "4ba8fe8b-fbd9-457c-94fc-f3555a8877bf"
+}

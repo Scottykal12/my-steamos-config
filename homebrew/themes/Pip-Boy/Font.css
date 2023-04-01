@@ -1,0 +1,12 @@
+@font-face {
+    font-family: pip-boy-font;
+    src: url("/themes_custom/Pip-Boy/font.ttf");
+  }
+
+* {
+    font-family: pip-boy-font !important;
+}
+
+.virtualkeyboardcontainer_VirtualKeyboardContainer_Oel3O * {
+  font-family: "Motiva Sans" !important;
+}

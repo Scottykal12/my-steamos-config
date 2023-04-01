@@ -1,0 +1,10 @@
+{
+  "name": "No Home Edge Fade",
+  "author": "SuchMeme",
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "id": "2dab90ab-2cf3-480f-adce-f6c67caadd67"
+}

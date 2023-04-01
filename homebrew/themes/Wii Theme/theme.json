@@ -1,0 +1,34 @@
+{
+  "name": "Wii Theme",
+  "author": "OT-Archmage",
+  "version": "1.5",
+  "manifest_version": 3,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "QuickAccess",
+      "MainMenu"
+    ]
+  },
+  "patches": {
+    "Hide Game Art": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "noart.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      }
+    }
+  },
+  "dependencies": {
+    "Clean Gameview": {
+      "Show Steam Cloud": "Yes"
+    },
+    "No Home Edge Fade": {}
+  },
+  "id": "46331fd1-e955-408b-8413-d68a8fa43bd8"
+}

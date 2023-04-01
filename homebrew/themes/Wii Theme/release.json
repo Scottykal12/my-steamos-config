@@ -1,0 +1,4 @@
+{
+    "include": ["ButtonCenter.png", "ButtonLeft.png", "ButtonRight.png", "MenuBackground.png", "SettingsBackground.png", "TabBorder.png"],
+    "ignore": []
+}

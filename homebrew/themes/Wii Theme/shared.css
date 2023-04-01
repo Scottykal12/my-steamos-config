@@ -1,0 +1,339 @@
+:root {
+	/* Colours */
+	--Wii_WhiteBG: White !important;
+	--Wii_GreyBG: #c3d5df !important;
+	--Wii_ActiveButtonBorder: #00BFFF !important;	
+	--Wii_ButtonBorder: #cccccc !important;
+	--Wii_GrayTextColour: #999999 !important;
+	--Wii_TextColour: Black !important;
+	
+	/* Images */
+	--Wii_IMG_MenuBG: url("/themes_custom/Wii%20Theme/MenuBackground.png");
+	--Wii_IMG_TabBorder: url("/themes_custom/Wii%20Theme/TabBorder.png");
+	--Wii_IMG_SettingsBG: url("/themes_custom/Wii%20Theme/SettingsBackground.png");
+	--Wii_IMG_ButtonLeft: url("/themes_custom/Wii%20Theme/ButtonLeft.png");
+	--Wii_IMG_ButtonRight: url("/themes_custom/Wii%20Theme/ButtonRight.png");
+	--Wii_IMG_ButtonCenter: url("/themes_custom/Wii%20Theme/ButtonCenter.png");
+
+}
+/*Applies to All*/
+* {
+	font-family: "Noto Sans" !important;
+	}
+
+/*Tab Group*/
+.gamepadtabbedpage_FixCenterAlignScroll_1CJeU.scrollpanel_ScrollPanel_1CXdi.scrollpanel_ScrollX_1oRGo {
+	gap: 20px;
+	background-color: transparent;
+}
+
+.basicappdetailssectionstyler_AppDetailsContainer_2-ns_ .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabContents_WDa0_ {
+    background-image: var(--Wii_IMG_SettingsBG);
+}
+
+.gamepadhome_ScrollArea_3PhGY .gamepadhome_TabbedContent_cE1Sa .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs {
+	background-image: var(--Wii_IMG_TabBorder), var(--Wii_IMG_MenuBG);
+	background-size: cover;
+	max-height: 62px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gamepadtabbedpage_Glyphs_N-f57 {
+	margin-top: 10px;
+}
+
+.gamepadtabbedpage_TabRowSpacer_dCYln {
+	margin: 0px 0px;
+}
+
+/*Individual Tabs*/
+.gamepadtabbedpage_Tab_3eEbS {
+	background: var(--Wii_WhiteBG);
+	color: var(--Wii_GrayTextColour) !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: var(--Wii_ButtonBorder) var(--Wii_ButtonBorder) var(--Wii_ButtonBorder) var(--Wii_ButtonBorder) !important;
+	border-radius: 30% 30% 0px 0px !important;
+	margin-top: 9px;
+}
+
+ svg.shared_svg_library_SteamDeckCompatUnknown_15dEs.basicappdetailssectionstyler_InvertFocusedIcon_3uJLN > path {
+	fill: Black;
+}
+
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+	background: var(--Wii_WhiteBG) !important;
+	color: var(--Wii_TextColour) !important;
+	border-style: solid !important;
+	border-width: 2px !important;
+	border-color: var(--Wii_ActiveButtonBorder) var(--Wii_ActiveButtonBorder) var(--Wii_ActiveButtonBorder) var(--Wii_ActiveButtonBorder) !important;
+}
+
+.gamepadtabbedpage_TabRow_19z_5 {
+    background-color: transparent !important;
+	background-size: auto;
+}
+
+.header_Header_1E_SL::before {
+	background-color: Black;
+}
+
+.quickaccessmenu_Menu_1gJzx, .quickaccessmenu_Tab_1S76C, .quickaccessmenu_Title_34nl5, .mainmenu_Menu_23IDi, .mainmenu_ItemOuter_1BbM8 {
+	background-color: Black;
+    box-shadow: none;
+}
+
+.quickaccessmenu_Menu_1gJzx {
+	border-left-color: White;
+	border-left-width: 2px;
+	border-left-style: solid;
+}
+
+.mainmenu_Menu_23IDi {
+	border-right-color: White;
+	border-right-width: 2px;
+	border-right-style: solid;
+}
+
+.quickaccessmenu_Title_34nl5 {
+	border-bottom-color: White;
+	border-bottom-style: solid;
+	background-color: Black;
+	padding-bottom: 15px;
+}
+
+.header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before {
+	background-color: Black;
+}
+
+.header_HeaderItem_2HnVd > svg > path, .header_HeaderItem_2HnVd > div > svg > path, .searchbar_SearchIconRight_1Ka4T > path {
+	fill: #999999;
+}
+
+.header_HeaderItem_2HnVd {
+	color: #999999;
+}
+
+.gamepadhome_TabbedContent_cE1Sa .gamepadtabbedpage_TabContentsScroll_1X4dt {
+	padding-top: 70px !important;
+    display: flex;
+    flex-direction: column;
+	background: 0%;
+	background-image: var(--Wii_IMG_SettingsBG);
+}
+
+.gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::after {
+	background-color: transparent;
+	content: none;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe, .gamepadlibrary_GamepadLibrary_ZBBhe .gamepadtabbedpage_TabContentsScroll_1X4dt {
+	background-image: var(--Wii_IMG_MenuBG);
+	background-color: transparent;
+	padding-bottom: 5px;
+}
+
+.overlappingtransition_ContentWrapper_1knAs .gamepadtabbedpage_ContentTransition_L_ehQ .overlappingtransition_TransitionGroup_11Twu {
+	background-color: transparent;
+}
+
+.appdetailsplaysection_PlayBarLabel_34lrt .appdetailsplaysection_PlayBarDetailLabel_2TYVG {
+	color: var(--Wii_TextColour) !important;
+}
+
+/* Header */
+.searchbar_SearchBox_2a1-s {
+	color: var(--Wii_TextColour) !important;
+}
+/*Recent Game Carousel */
+.ReactVirtualized__Grid.basicgamecarousel_BasicGameCarousel_3MdH5 {
+	height: 350px !important;
+}
+.gamepadhome_RecentSection_39tNv {
+    background-image: var(--Wii_IMG_MenuBG);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.basicappdetailssectionstyler_PlaySection_3scbH {
+	background-image: linear-gradient(#c3d5df, #999999);
+	border-top-color: Gray;
+	border-top-width: 2px;
+	border-bottom-width: 0px;
+	border-top-style: solid;
+}
+
+.appactionbutton_PlayButton_3ydig {
+	background-image: var(--Wii_IMG_ButtonLeft), var(--Wii_IMG_ButtonRight), var(--Wii_IMG_ButtonCenter) !important;
+	background-repeat: no-repeat, no-repeat, repeat-x !important;
+	background-size: contain !important;
+	background-position: left, right, center !important;
+	max-width: 120px !important;
+	flex: none !important;
+}
+
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+	color: var(--Wii_GrayTextColour);
+	text-shadow: 0 0 3px #ffffff;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ {
+	background-image: var(--Wii_IMG_ButtonLeft), var(--Wii_IMG_ButtonRight), var(--Wii_IMG_ButtonCenter) !important;
+	background-repeat: no-repeat, no-repeat;
+	background-size: contain;
+	background-position: left, right;
+	border-radius: 50px !important;
+}
+
+.appactionbutton_StreamingSelector_2q-gZ {
+	background-image: var(--Wii_IMG_ButtonLeft), var(--Wii_IMG_ButtonRight), var(--Wii_IMG_ButtonCenter) !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-size: contain !important;
+	background-position: left, right !important;
+	margin-left: 3% !important;
+	min-width: 49px;
+}
+
+.gamepadsearch_GamepadSearch_P_AlE .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabContents_WDa0_ {
+	background-color: transparent;
+	background-image: var(--Wii_IMG_MenuBG);
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ.gpfocuswithin {
+	animation: button-pop-small 0.1s linear 1 forwards;
+}
+
+.appdetailsplaysection_MenuButton_3qDWQ svg path {
+	fill: black;
+}
+
+.appactionbutton_PlayButton_3ydig svg svg path.DownloadArrow {
+	fill: Black;
+}
+
+.appactionbutton_PlayButton_3ydig .appactionbutton_ButtonText_33cnX {
+	color: black !important;
+	margin-left: 20% !important;
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0 {
+    margin-bottom: -10px;
+}
+
+.localdateandtime_RightSideTitles_3sPON {
+	color: var(--Wii_ActiveButtonBorder) !important;
+	font-weight: bold !important;
+}
+
+.searchbar_ForceExpanded_1bmuJ, .searchbar_WhiteBackground_1l8js {
+	background-color: White !important;
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky {
+	background-color: transparent;
+}
+
+.appdetailsplaysection_GameStat_1kiZK div {
+	color: Black !important;
+}
+
+.audio_VolumePopin_2iUUM {
+	background-color: var(--Wii_GreyBG);
+}
+
+.smartscrollcontainer_ScrollToTopButton_1bCHN > div {
+	background-image: none;
+	background: White;
+	color: black;
+	border-radius: 30% 30% 0px 0px !important;
+}
+
+.BasicUI .sharedappdetailsheader_Wii_IMGSrc__dije {
+    height: 100%;
+}
+
+.basicappdetailssectionstyler_AppActionButton_QsZdW, .appactionbutton_PlayButton_3ydig, .appactionbutton_ButtonChild_2AzIX, .appactionbutton_StreamingSelector_2q-gZ {
+	border-radius: 50px !important;
+}
+
+.appactionbutton_ButtonChild_2AzIX::after {
+	opacity: 0 !important;
+}
+
+.basicappdetailssectionstyler_AppActionButton_QsZdW {
+	background-color: transparent;
+}
+
+.friendlist {
+	background: transparent !important;
+}
+
+.basicappdetailssectionstyler_AppActionButton_QsZdW.gpfocuswithin, .appactionbutton_PlayButton_3ydig.gpfocuswithin {
+	background-color: transparent !important;
+}
+.appactionbutton_PlayButton_3ydig.gpfocuswithin, .appactionbutton_StreamingSelector_2q-gZ.gpfocuswithin {
+    animation: button-pop 0.1s linear 1 forwards;
+}
+
+.BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus:focus::after {
+	animation-duration: 0s;
+}
+
+.appactionbutton_ButtonChild_2AzIX > svg > path {
+	fill: Black;
+}
+
+.appactionbutton_ButtonChild_2AzIX > p {
+	color: Black !important;
+}
+
+.appactionbutton_StreamingSelector_2q-gZ svg {
+	transform: translate(13px) !important;
+}
+
+.basiccontextmenu_contextMenuItem_3PqLg {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.appdetailsplaysection_PlayBarDetailLabel_2TYVG, .appdetailsplaysection_DetailsSectionStatus_1sKdg {
+	color: Black !important;
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_2P_CG, .gamepaddialog_GamepadDialogContent_3joNk {
+	background-image: var(--Wii_IMG_SettingsBG);
+	background-size: contain;
+	background-repeat: repeat-x;
+}
+
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+	background-color: transparent;
+}
+
+.gamepaddialog_GamepadDialogContent_InnerWidth_3Xeyd {
+	border-color: White transparent White transparent;
+	border-style: solid;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: screen;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lockscreen_Container_3rFFU {
+	background-image: var(--Wii_IMG_SettingsBG);
+}
+
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: screen;
+}
+
+@keyframes button-pop {
+  100%  {transform: scale(1.05);}
+}
+
+@keyframes button-pop-small {
+  100%  {transform: scale(1.1);}
+}

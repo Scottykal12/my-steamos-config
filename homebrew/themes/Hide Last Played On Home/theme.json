@@ -1,0 +1,28 @@
+{
+  "name": "Hide Last Played On Home",
+  "author": "Matthias#8282",
+  "manifest_version": 3,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ]
+  },
+  "patches": {
+    "Add Margin": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "margin.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      }
+    }
+  },
+  "id": "dd050f3b-a71b-40ac-8ecb-825334bf7a0a"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Fullscreen Home",
+  "author": "FlanGrande",
+  "version": "v1.3",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "dependencies": {},
+  "patches": {
+    "Hide \"Recent Games\" title": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "No": {},
+        "Yes": {
+          "removetitle.css": [
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    }
+  },
+  "id": "e2367283-88ba-41b8-aa02-65dff5f4db18"
+}

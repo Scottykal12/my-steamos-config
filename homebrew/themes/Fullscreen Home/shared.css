@@ -1,0 +1,39 @@
+.gamepadhomerecentgames_RecentGamesHeader_35iRe
+{
+	position: relative;
+    top: 10px;
+	font-size: 18px;
+}
+
+.gamepadhome_RecentSection_39tNv
+{
+	height: 100vh;
+}
+
+.gamepadhomerecentgames_RecentGamesContainer_2_cRk
+{
+	padding-top: 0;
+	position: relative;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.gamepadhomerecentgames_RecentGamesInnerContainer_282X0
+{
+	transform: scale(1.5) translateX(11.12vw) translateY(-5px);
+	width: 66.5vw;
+}
+
+.basicgamecarousel_CarouselGameLabel_3CKji,
+.shared_svg_library_SteamDeckCompatInfo_2LcFI
+{
+	backface-visibility: hidden;
+}
+
+.basicgamecarousel_CarouselGameLabelWrapper_ZkD6W
+{
+	width: 350px !important;
+	transition-duration: 0.08s;
+}

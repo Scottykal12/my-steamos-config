@@ -1,0 +1,76 @@
+{
+  "name": "decky-steamgriddb",
+  "version": "1.2.2",
+  "description": "Decky plugin to manage Steam artwork from within gaming mode.",
+  "scripts": {
+    "build": "shx rm -rf dist && rollup -c --environment ROLLUP_ENV:production",
+    "watch": "rollup -c -w --environment ROLLUP_ENV:development",
+    "watch:vm-dev": "npm run watch -- --watch.onEnd=\"pnpm run copy-to-vm\"",
+    "copy-to-vm": "pscp -P 50658 -pw 123 -r ./dist/ manjaro@127.0.0.1:/home/manjaro/homebrew/plugins/decky-steamgriddb/dist",
+    "dump-strings": "node ./dump-strings.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteamGridDB/decky-steamgriddb.git"
+  },
+  "keywords": [
+    "decky",
+    "plugin",
+    "steam-deck",
+    "deck",
+    "steamgriddb"
+  ],
+  "author": "Jozen Blue Martinez <me@jozen.blue>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SteamGridDB/decky-steamgriddb/issues"
+  },
+  "homepage": "https://github.com/SteamGridDB/decky-steamgriddb#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/react": "16.14.0",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-import-assets": "^1.1.1",
+    "rollup-plugin-polyfill-node": "^0.11.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.60.0",
+    "shx": "^0.3.4",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/react-file-icon": "^1.0.1",
+    "async-wait-until": "^2.0.12",
+    "decky-frontend-lib": "^3.19.2",
+    "filesize": "^10.0.6",
+    "just-debounce": "^1.1.0",
+    "qrcode.react": "^3.1.0",
+    "react-fast-compare": "^3.2.1",
+    "react-file-icon": "^1.3.0",
+    "react-icons": "^4.8.0",
+    "react-markdown": "^8.0.6",
+    "react-string-replace": "^1.1.0",
+    "remark-gfm": "^3.0.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}

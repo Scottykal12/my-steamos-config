@@ -1,0 +1,127 @@
+{
+    "experiment_squares": false,
+    "plugin_use_count": 25,
+    "zoomlevel_icon": 110,
+    "filters_grid_p": {
+        "styles": [
+            "alternate",
+            "white_logo",
+            "no_logo",
+            "blurred",
+            "material"
+        ],
+        "dimensions": [
+            "600x900",
+            "342x482",
+            "660x930"
+        ],
+        "mimes": [
+            "image/png",
+            "image/jpeg",
+            "image/webp"
+        ],
+        "animated": true,
+        "_static": false,
+        "adult": false,
+        "humor": true,
+        "epilepsy": true,
+        "untagged": true
+    },
+    "filters_grid_l": {
+        "styles": [
+            "alternate",
+            "white_logo",
+            "no_logo",
+            "blurred",
+            "material"
+        ],
+        "dimensions": [
+            "460x215",
+            "920x430"
+        ],
+        "mimes": [
+            "image/png",
+            "image/jpeg",
+            "image/webp"
+        ],
+        "animated": true,
+        "_static": true,
+        "adult": false,
+        "humor": true,
+        "epilepsy": true,
+        "untagged": true
+    },
+    "nonsteam_745920": {
+        "types": [
+            "steam"
+        ],
+        "id": 23171,
+        "name": "Temtem",
+        "verified": true,
+        "release_date": 1579629569
+    },
+    "filters_hero": {
+        "styles": [
+            "alternate",
+            "blurred",
+            "material"
+        ],
+        "dimensions": [
+            "1920x620",
+            "3840x1240",
+            "1600x650"
+        ],
+        "mimes": [
+            "image/png",
+            "image/jpeg",
+            "image/webp"
+        ],
+        "animated": true,
+        "_static": true,
+        "adult": false,
+        "humor": true,
+        "epilepsy": true,
+        "untagged": true
+    },
+    "nonsteam_230980": {
+        "types": [
+            "steam"
+        ],
+        "id": 2513,
+        "name": "Starseed Pilgrim",
+        "verified": true,
+        "release_date": 1366131600
+    },
+    "filters_logo": {
+        "styles": [
+            "official",
+            "white",
+            "black",
+            "custom"
+        ],
+        "dimensions": [],
+        "mimes": [
+            "image/png",
+            "image/webp"
+        ],
+        "animated": true,
+        "_static": true,
+        "adult": false,
+        "humor": true,
+        "epilepsy": true,
+        "untagged": true
+    },
+    "nonsteam_3851967741": {
+        "types": [],
+        "id": 5289460,
+        "name": "Run (Microsoft Windows utility)",
+        "verified": true
+    },
+    "nonsteam_4096302109": {
+        "types": [],
+        "id": 5268710,
+        "name": "Android",
+        "verified": true,
+        "release_date": 1222128000
+    }
+}

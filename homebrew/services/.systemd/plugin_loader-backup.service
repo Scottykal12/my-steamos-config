@@ -1,0 +1,15 @@
+[Unit]
+Description=SteamDeck Plugin Loader
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=root
+Restart=always
+ExecStart=/home/deck/homebrew/services/PluginLoader
+WorkingDirectory=/home/deck/homebrew/services
+KillSignal=SIGKILL
+Environment=PLUGIN_PATH=/home/deck/homebrew/plugins
+Environment=LOG_LEVEL=INFO
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+	/* Button Icons. If you want to use the default then use the default steamglyph image path or just delete the variable*/
+
+:root {
+	/* standard buttons */
+	--zbpg-face-up:  url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_button_t.svg");
+	--zbpg-face-dn:  url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_button_x.svg");
+	--zbpg-face-lf:  url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_button_s.svg");
+	--zbpg-face-rt:  url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_button_o.svg");
+	--zbpg-menu-srt: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/sd_button_start.svg");
+	--zbpg-menu-slc: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/sd_button_select.svg");
+
+	/* directional pad */
+	--zbpg-dpad-nu: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_dpad.svg");
+	--zbpg-dpad-up: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_dpad_up.svg");
+	--zbpg-dpad-dn: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_dpad_down.svg");
+	--zbpg-dpad-lf: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_dpad_left.svg");
+	--zbpg-dpad-rt: url("/themes_custom/Button%20Prompts%20Galore/ds3/imgs/shared_dpad_right.svg");
+}

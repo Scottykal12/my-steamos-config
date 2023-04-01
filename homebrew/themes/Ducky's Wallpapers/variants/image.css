@@ -1,0 +1,11 @@
+:root {
+	--bg-main-color-library: url(https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg);
+	--tab-font-color-library: #ffffff;
+	--tab-font-outline-color-library: #0000001A;
+	--selected-tab-font-color-library: #ffffff;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+    background-repeat: no-repeat;
+    background-size: cover;
+}

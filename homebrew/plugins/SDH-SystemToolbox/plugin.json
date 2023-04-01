@@ -1,0 +1,10 @@
+{
+  "name": "System Toolbox",
+  "author": "WerWolv",
+  "flags": [ "root" ],
+  "publish": {
+    "tags": [ "tools", "services", "kernel", "root" ],
+    "description": "Helpful tools to control various settings of the Steam Deck",
+    "image": "https://raw.githubusercontent.com/WerWolv/SDH-SystemToolbox/main/assets/screenshot.jpg"
+  }
+}

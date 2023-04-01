@@ -1,0 +1,14 @@
+{
+  "name": "Show Download Status",
+  "version": "v1.0",
+  "author": "Tormak#6639",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ]
+  },
+  "id": "2bf7d0cf-5bc0-40d0-8b26-2dd286505994"
+}

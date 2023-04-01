@@ -1,0 +1,68 @@
+{
+  "name": "Galactic",
+  "author": "EMERALD#0874",
+  "version": "v1.9",
+  "manifest_version": 2,
+  "inject": {
+    "background.css": [
+      "SP"
+    ]
+  },
+  "patches": {
+    "Installation": {
+      "default": "All",
+      "type": "dropdown",
+      "values": {
+        "All": {
+          "center-recents.css": [
+            "SP"
+          ],
+          "colors.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ],
+          "fonts.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ],
+          "round.css": [
+            "SP"
+          ],
+          "round-outline.css": [
+            "SP"
+          ]
+        },
+        "Only colors and fonts": {
+          "colors.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ],
+          "fonts.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Only background": {}
+      }
+    },
+    "Offline Mode": {
+      "default": "No",
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "offline.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "No": {}
+      }
+    }
+  },
+  "id": "f3c09b09-62ec-4509-9a8b-b4c9bf73c5b2"
+}

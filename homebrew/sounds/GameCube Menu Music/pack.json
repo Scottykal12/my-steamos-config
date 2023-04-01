@@ -1,0 +1,9 @@
+{
+  "name": "GameCube Menu Music",
+  "author": "VortexisTV",
+  "version": "v1.0",
+  "manifest_version": 1,
+  "music": true,
+  "ignore": [],
+  "id": "6751b04d-fef0-4143-a441-e0a6da7b7a33"
+}

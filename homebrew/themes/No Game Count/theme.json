@@ -1,0 +1,28 @@
+{
+  "name": "No Game Count",
+  "author": "Charmics",
+  "version": "v0.2",
+  "manifest_version": 5,
+  "inject": {},
+  "dependencies": {},
+  "patches": {
+    "No Game Count": {
+      "type": "dropdown",
+      "default": "Library Only",
+      "values": {
+        "Library Only": {
+          "library.css": [
+            "SP"
+          ]
+        },
+        "Hide Numbers Globally": {
+          "global.css": [
+            "SP"
+          ]
+        }
+      },
+      "components": []
+    }
+  },
+  "id": "27eced0d-514c-409b-bc32-648fc9377f86"
+}

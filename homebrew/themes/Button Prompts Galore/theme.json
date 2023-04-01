@@ -1,0 +1,51 @@
+{
+  "name": "Button Prompts Galore",
+  "version": "v1.1",
+  "author": "ZeusOfTheCrows",
+  "manifest_version": 3,
+  "inject": {
+    "global.css": [
+      "SP",
+      "QuickAccess"
+    ]
+  },
+  "patches": {
+    "controller Type": {
+      "default": "Super NES",
+      "type": "dropdown",
+      "values": {
+        "Super NES": {
+          "snes/snes.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        },
+        "Switch": {
+          "nsx/nsx.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        },
+        "DualShock": {
+          "ds3/ds3.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        },
+        "DualSense": {
+          "ds5/ds5.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        },
+        "XInput": {
+          "xbox/xbox.css": [
+            "SP",
+            "QuickAccess"
+          ]
+        }
+      }
+    }
+  },
+  "id": "6681fbf3-1bf4-4f99-8597-dd865228db46"
+}

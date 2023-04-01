@@ -1,0 +1,11 @@
+	/* Button Icons. If you want to use the default then use the default steamglyph image path or just delete the variable*/
+
+:root {
+	/* standard buttons */
+	--zbpg-face-up:  url("/themes_custom/Button%20Prompts%20Galore/snes/imgs/shared_button_x.svg");
+	--zbpg-face-dn:  url("/themes_custom/Button%20Prompts%20Galore/snes/imgs/shared_button_b.svg");
+	--zbpg-face-lf:  url("/themes_custom/Button%20Prompts%20Galore/snes/imgs/shared_button_y.svg");
+	--zbpg-face-rt:  url("/themes_custom/Button%20Prompts%20Galore/snes/imgs/shared_button_a.svg");
+	--zbpg-menu-srt: url("/themes_custom/Button%20Prompts%20Galore/snes/imgs/sd_button_start.svg");
+	--zbpg-menu-slc: url("/themes_custom/Button%20Prompts%20Galore/snes/imgs/sd_button_select.svg");
+}

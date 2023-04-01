@@ -1,0 +1,26 @@
+:root {
+	--bg-main-color-library: linear-gradient(142deg, rgba(255,0,0,1) 15%, rgba(241,241,10,1) 25%, rgba(0,255,0,1) 40%, rgba(0,255,255,1) 55%, rgba(0,0,255,1) 70%, rgba(255,0,255,1) 80%, rgba(255,0,0,1) 90%);
+	--tab-font-color-library: #ffffff;
+	--selected-tab-color-library: #18ffe547;
+	--selected-tab-font-color-library: #ffffff;
+    --animation: gradient 20s ease infinite forwards !important;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+      background-size: 300% 300%;
+    }
+    50% {
+      background-position: 100% 50%;
+      background-size: 300% 300%;
+    }
+    100% {
+      background-position: 0% 50%;
+      background-size: 300% 300%;
+    }
+  }
+
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+	animation : var(--animation);
+}

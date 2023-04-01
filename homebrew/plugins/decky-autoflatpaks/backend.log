@@ -1,0 +1,185 @@
+[AutoFlatpaks] 2023-03-05 20:42:33,983 INFO Settings path: /home/deck/homebrew/plugins/decky-autoflatpaks/settings.json
+[AutoFlatpaks] 2023-03-05 20:42:35,253 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-05 20:42:35,253 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-05 20:42:35,253 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-05 20:42:35,701 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-05 20:42:35,702 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-05 20:42:35,703 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-06 16:40:23,543 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-06 16:40:23,544 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-06 16:40:23,544 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-06 16:40:23,901 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-06 16:40:23,902 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-06 16:40:23,902 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-07 16:03:44,811 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-07 16:03:44,811 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-07 16:03:44,811 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-07 16:03:45,204 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-07 16:03:45,204 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-07 16:03:45,204 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-08 15:58:32,296 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-08 15:58:32,298 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-08 15:58:32,298 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-08 15:58:32,698 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-08 15:58:32,699 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-08 15:58:32,699 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-08 16:21:45,324 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-08 16:21:45,324 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-08 16:21:45,324 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-08 16:21:46,789 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-08 16:21:46,790 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-08 16:21:46,790 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-08 16:31:31,768 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-08 16:31:31,769 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-08 16:31:31,769 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-08 16:31:32,123 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-08 16:31:32,124 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-08 16:31:32,124 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-08 20:47:50,483 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-08 20:47:50,483 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-08 20:47:50,483 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-08 20:47:58,011 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-08 20:47:58,011 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-08 20:47:58,012 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-08 21:09:19,189 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-08 21:09:19,190 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-08 21:09:19,190 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-08 21:09:24,464 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-08 21:09:24,464 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-08 21:09:24,464 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-09 09:09:20,142 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-09 09:09:20,142 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-09 09:09:20,142 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-09 09:09:32,341 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	com.google.Chrome	stable	u	flathub	< 100.6?MB
+ 2.	   	org.freedesktop.Platform.Compat.i386	22.08	u	flathub	< 106.3?MB
+ 3.	   	org.freedesktop.Platform.GL.default	22.08	u	flathub	< 137.7?MB
+ 4.	   	org.freedesktop.Platform.GL.default	22.08-extra	u	flathub	< 137.7?MB
+ 5.
+STDERR: 
+[AutoFlatpaks] 2023-03-09 09:09:32,342 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-09 09:09:32,342 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-03-09 16:57:34,863 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-09 16:57:34,863 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-09 16:57:34,863 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-09 16:57:41,446 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-09 16:57:41,446 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-09 16:57:41,446 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-10 11:59:32,798 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-10 11:59:32,798 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-10 11:59:32,799 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-10 11:59:33,185 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-10 11:59:33,185 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-10 11:59:33,185 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-11 02:07:33,978 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-11 02:07:33,979 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-11 02:07:33,979 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-11 02:07:34,346 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-11 02:07:34,347 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-11 02:07:34,347 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-11 15:17:47,807 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-11 15:17:47,807 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-11 15:17:47,807 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-11 15:17:48,181 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-11 15:17:48,181 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-11 15:17:48,181 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-13 01:21:50,807 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-13 01:21:50,808 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-13 01:21:50,808 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-13 01:21:51,134 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-13 01:21:51,135 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-13 01:21:51,136 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-13 13:25:46,778 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-13 13:25:46,780 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-13 13:25:46,781 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-13 13:25:47,116 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-13 13:25:47,116 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-13 13:25:47,117 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-14 16:29:02,760 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-14 16:29:02,762 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-14 16:29:02,762 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-14 16:29:03,162 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-03-14 16:29:03,163 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-14 16:29:03,163 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-14 17:17:09,051 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-14 17:17:09,051 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-14 17:17:09,051 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-14 17:17:10,487 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-14 17:17:10,488 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-14 17:17:10,488 INFO Failed to parse: "Nothing to do."

@@ -1,0 +1,11 @@
+{
+    "name": "PowerTools",
+    "author": "NGnius",
+    "flags": ["root"],
+    "publish": {
+        "discord_id": "106537989684887552",
+        "description": "Power tweaks for power users",
+        "tags": [ "utility", "power-management", "root" ],
+        "image": "https://raw.githubusercontent.com/NGnius/PowerTools/main/assets/thumbnail.png"
+    }
+}

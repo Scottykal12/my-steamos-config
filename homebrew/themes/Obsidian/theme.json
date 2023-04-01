@@ -1,0 +1,86 @@
+{
+  "name": "Obsidian",
+  "author": "EMERALD#0874",
+  "version": "v2.2",
+  "manifest_version": 2,
+  "inject": {
+    "shared.css": [
+      "SP",
+      "MainMenu",
+      "QuickAccess"
+    ]
+  },
+  "patches": {
+    "Main Color": {
+      "default": "Black",
+      "type": "dropdown",
+      "values": {
+        "Black": {},
+        "Dark Gray": {
+          "dark-gray.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Gray": {
+          "gray.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Red": {
+          "red.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Orange": {
+          "orange.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Yellow": {
+          "yellow.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Green": {
+          "green.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Blue": {
+          "blue.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Indigo": {
+          "indigo.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        },
+        "Violet": {
+          "violet.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
+        }
+      }
+    }
+  },
+  "id": "f16cf40d-7ccc-4981-95bf-77b28e8d101e"
+}

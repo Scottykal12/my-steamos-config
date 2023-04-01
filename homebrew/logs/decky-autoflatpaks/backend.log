@@ -1,0 +1,51 @@
+[AutoFlatpaks] 2023-03-31 23:45:47,860 INFO Settings path: /home/deck/homebrew/settings/decky-autoflatpaks/settings.json
+[AutoFlatpaks] 2023-03-31 23:46:10,707 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-31 23:46:10,707 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-31 23:46:10,707 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-31 23:46:12,685 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-31 23:46:12,686 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-31 23:46:12,687 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-03-31 23:56:33,819 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-03-31 23:56:33,820 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-03-31 23:56:33,820 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-03-31 23:56:34,818 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-03-31 23:56:34,818 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-03-31 23:56:34,818 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-01 12:07:04,514 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-01 12:07:04,514 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-01 12:07:04,514 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-01 12:07:05,199 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-01 12:07:05,199 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-01 12:07:05,199 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-01 13:04:53,025 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-01 13:04:53,026 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-01 13:04:53,026 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-01 13:04:53,868 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-01 13:04:53,868 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-01 13:04:53,868 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-01 13:26:28,771 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-01 13:26:28,771 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-01 13:26:28,771 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-01 13:26:30,146 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-01 13:26:30,146 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-01 13:26:30,146 INFO Failed to parse: "Nothing to do."
