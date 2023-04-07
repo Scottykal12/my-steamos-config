@@ -10,8 +10,10 @@ sudo pacman -S git --noconfirm
 # set shell to fish
 sudo chsh -s /usr/bin/fish
 
+# Install decky
 curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
 
+# Add EmuDeck installer to desktop
 cd Desktop
 wget https://www.emudeck.com/EmuDeck.desktop
 cd
@@ -19,6 +21,7 @@ cd
 git clone https://github.com/Scottykal12/my-steamos-config.git
 cd my-steamos-config
 
+# install flatpaks
 for i in $(cat flatpaks); do
     flatpak install $i --noninteractive
 done
