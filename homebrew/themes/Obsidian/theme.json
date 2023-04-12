@@ -1,8 +1,8 @@
 {
   "name": "Obsidian",
   "author": "EMERALD#0874",
-  "version": "v2.2",
-  "manifest_version": 2,
+  "version": "v3.0",
+  "manifest_version": 6,
   "inject": {
     "shared.css": [
       "SP",
@@ -78,8 +78,23 @@
             "MainMenu",
             "QuickAccess"
           ]
+        },
+        "Custom": {}
+      },
+      "components": [
+        {
+          "name": "Background Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#000",
+          "css_variable": "--obsidian-main-color",
+          "tabs": [
+            "SP",
+            "MainMenu",
+            "QuickAccess"
+          ]
         }
-      }
+      ]
     }
   },
   "id": "f16cf40d-7ccc-4981-95bf-77b28e8d101e"

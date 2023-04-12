@@ -1,51 +1,334 @@
-[AutoFlatpaks] 2023-03-31 23:45:47,860 INFO Settings path: /home/deck/homebrew/settings/decky-autoflatpaks/settings.json
-[AutoFlatpaks] 2023-03-31 23:46:10,707 INFO Received request for list of available updates
-[AutoFlatpaks] 2023-03-31 23:46:10,707 INFO Digest CLI output: flatpak update --no-deps
-[AutoFlatpaks] 2023-03-31 23:46:10,707 INFO Calling python subprocess: "flatpak update --no-deps"
-[AutoFlatpaks] 2023-03-31 23:46:12,685 INFO Returncode: 0
+[AutoFlatpaks] 2023-04-08 09:56:12,072 INFO Settings path: /home/deck/homebrew/settings/decky-autoflatpaks/settings.json
+[AutoFlatpaks] 2023-04-08 09:56:13,265 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-08 09:56:13,265 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-08 09:56:13,265 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-08 09:56:15,543 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	com.google.Chrome	stable	u	flathub	< 100.5?MB
+ 2.	   	com.heroicgameslauncher.hgl	stable	u	flathub	< 140.7?MB
+ 3.	   	org.gtk.Gtk3theme.Breeze	3.22	u	flathub	< 191.6?kB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:15,544 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-08 09:56:15,545 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-08 09:56:36,098 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-08 09:56:36,098 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-08 09:56:36,098 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-08 09:56:36,833 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	com.google.Chrome	stable	u	flathub	< 100.5?MB
+ 2.	   	com.heroicgameslauncher.hgl	stable	u	flathub	< 140.7?MB
+ 3.	   	org.gtk.Gtk3theme.Breeze	3.22	u	flathub	< 191.6?kB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:36,833 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-08 09:56:36,833 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-08 09:56:36,864 INFO Received request for list of remote packages
+[AutoFlatpaks] 2023-04-08 09:56:36,865 INFO Digest CLI output: flatpak remote-ls --columns=name:f,installed-size:f,description:f,download-size:f,version:f,commit:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f
+[AutoFlatpaks] 2023-04-08 09:56:36,865 INFO Calling python subprocess: "flatpak remote-ls --columns=name:f,installed-size:f,description:f,download-size:f,version:f,commit:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f"
+[AutoFlatpaks] 2023-04-08 09:56:40,814 INFO Returncode: 0
+STDOUT: AuthPass	36.4?MB	Password Manager: Keep your passwords safe across all platforms and devices	15.0?MB	1.9.6_1904	88244770fe9e	stable	app/app.authpass.AuthPass/x86_64/stable	flathub	app.authpass.AuthPass	org.freedesktop.Platform/x86_64/21.08	x86_64
+BlueBubbles	53.8?MB	BlueBubbles client for Linux	22.1
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:41,052 INFO Received request for list of remote packages
+[AutoFlatpaks] 2023-04-08 09:56:41,053 INFO Digest CLI output: flatpak remote-ls --columns=name:f,installed-size:f,description:f,download-size:f,version:f,commit:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f -a --updates
+[AutoFlatpaks] 2023-04-08 09:56:41,053 INFO Calling python subprocess: "flatpak remote-ls --columns=name:f,installed-size:f,description:f,download-size:f,version:f,commit:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f -a --updates"
+[AutoFlatpaks] 2023-04-08 09:56:43,162 INFO Returncode: 0
+STDOUT: Google Chrome	19.9?MB	The web browser from Google	100.5?MB	111.0.5563.146-1	e541d02feccf	stable	app/com.google.Chrome/x86_64/stable	flathub	com.google.Chrome	org.freedesktop.Platform/x86_64/22.08	x86_64
+Heroic Games Launcher	369.3?MB	An Open Source GOG and Epic Games Launcher.	140.7?MB	v2.6.2	8e3d5a
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:43,164 INFO Received request for list of local packages
+[AutoFlatpaks] 2023-04-08 09:56:43,164 INFO Digest CLI output: flatpak list -a --columns=name:f,installation:f,description:f,size:f,version:f,active:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f,latest:f --app
+[AutoFlatpaks] 2023-04-08 09:56:43,164 INFO Calling python subprocess: "flatpak list -a --columns=name:f,installation:f,description:f,size:f,version:f,active:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f,latest:f --app"
+[AutoFlatpaks] 2023-04-08 09:56:43,197 INFO Returncode: 0
+STDOUT: Google Chrome	system	The web browser from Google	19.9?MB	111.0.5563.146-1	1b2cabc20c64	stable	com.google.Chrome/x86_64/stable	flathub	com.google.Chrome	org.freedesktop.Platform/x86_64/22.08	x86_64	system,current	-
+Heroic Games Launcher	system	An Open Source GOG and Epic Games Launcher.	375.2?MB	v2.6
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:43,198 INFO Digest CLI output: flatpak list -a --columns=name:f,installation:f,description:f,size:f,version:f,active:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f,latest:f --runtime
+[AutoFlatpaks] 2023-04-08 09:56:43,198 INFO Calling python subprocess: "flatpak list -a --columns=name:f,installation:f,description:f,size:f,version:f,active:f,branch:f,ref:f,origin:f,application:f,runtime:f,arch:f,options:f,latest:f --runtime"
+[AutoFlatpaks] 2023-04-08 09:56:43,230 INFO Returncode: 0
+STDOUT: Freedesktop Platform	system	Shared libraries	576.2?MB	22.08.9	1f786f0b0eb6	22.08	org.freedesktop.Platform/x86_64/22.08	flathub	org.freedesktop.Platform		x86_64	system	-
+i386	system		266.5?MB		a206abfea7cc	22.08	org.freedesktop.Platform.Compat.i386/x86_64/22.08	flathub	org.freedesktop.Platform.Compat
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:43,231 INFO Received request for list of masks
+[AutoFlatpaks] 2023-04-08 09:56:43,232 INFO Digest CLI output: flatpak mask
+[AutoFlatpaks] 2023-04-08 09:56:43,232 INFO Calling python subprocess: "flatpak mask"
+[AutoFlatpaks] 2023-04-08 09:56:43,260 INFO Returncode: 0
+STDOUT: 
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:56:43,316 INFO Received request to update package: com.google.Chrome/x86_64/stable
+[AutoFlatpaks] 2023-04-08 09:56:43,316 INFO Calling python subprocess: "flatpak install --noninteractive --no-auto-pin --or-update com.google.Chrome/x86_64/stable"
+[AutoFlatpaks] 2023-04-08 09:57:24,888 INFO Returncode: 0
+STDOUT: Updating runtime/org.gtk.Gtk3theme.Breeze/x86_64/3.22
+Updating app/com.google.Chrome/x86_64/stable
+
+STDERR: F: Not exporting file com.google.Chrome.appdata.xml of unsupported type.
+
+[AutoFlatpaks] 2023-04-08 09:57:24,901 INFO Received request to update package: com.heroicgameslauncher.hgl/x86_64/stable
+[AutoFlatpaks] 2023-04-08 09:57:24,901 INFO Calling python subprocess: "flatpak install --noninteractive --no-auto-pin --or-update com.heroicgameslauncher.hgl/x86_64/stable"
+[AutoFlatpaks] 2023-04-08 09:58:00,532 INFO Returncode: 0
+STDOUT: Updating app/com.heroicgameslauncher.hgl/x86_64/stable
+
+STDERR: F: Not exporting file com.heroicgameslauncher.hgl.appdata.xml of unsupported type.
+
+[AutoFlatpaks] 2023-04-08 09:58:00,544 INFO Received request to update package: org.gtk.Gtk3theme.Breeze/x86_64/3.22
+[AutoFlatpaks] 2023-04-08 09:58:00,544 INFO Calling python subprocess: "flatpak install --noninteractive --no-auto-pin --or-update org.gtk.Gtk3theme.Breeze/x86_64/3.22"
+[AutoFlatpaks] 2023-04-08 09:58:01,628 INFO Returncode: 0
+STDOUT: 
+STDERR: 
+[AutoFlatpaks] 2023-04-08 09:58:01,640 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-08 09:58:01,641 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-08 09:58:01,641 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-08 09:58:05,685 INFO Returncode: 0
 STDOUT: Looking for updates?
 Nothing to do.
 
 STDERR: 
-[AutoFlatpaks] 2023-03-31 23:46:12,686 INFO Failed to parse: "Looking for updates?"
-[AutoFlatpaks] 2023-03-31 23:46:12,687 INFO Failed to parse: "Nothing to do."
-[AutoFlatpaks] 2023-03-31 23:56:33,819 INFO Received request for list of available updates
-[AutoFlatpaks] 2023-03-31 23:56:33,820 INFO Digest CLI output: flatpak update --no-deps
-[AutoFlatpaks] 2023-03-31 23:56:33,820 INFO Calling python subprocess: "flatpak update --no-deps"
-[AutoFlatpaks] 2023-03-31 23:56:34,818 INFO Returncode: 0
+[AutoFlatpaks] 2023-04-08 09:58:05,685 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-08 09:58:05,685 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-08 20:23:47,762 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-08 20:23:47,763 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-08 20:23:47,763 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-08 20:23:48,507 INFO Returncode: 0
 STDOUT: Looking for updates?
 Nothing to do.
 
 STDERR: 
-[AutoFlatpaks] 2023-03-31 23:56:34,818 INFO Failed to parse: "Looking for updates?"
-[AutoFlatpaks] 2023-03-31 23:56:34,818 INFO Failed to parse: "Nothing to do."
-[AutoFlatpaks] 2023-04-01 12:07:04,514 INFO Received request for list of available updates
-[AutoFlatpaks] 2023-04-01 12:07:04,514 INFO Digest CLI output: flatpak update --no-deps
-[AutoFlatpaks] 2023-04-01 12:07:04,514 INFO Calling python subprocess: "flatpak update --no-deps"
-[AutoFlatpaks] 2023-04-01 12:07:05,199 INFO Returncode: 0
+[AutoFlatpaks] 2023-04-08 20:23:48,507 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-08 20:23:48,507 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-09 08:28:54,771 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-09 08:28:54,771 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-09 08:28:54,771 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-09 08:28:55,163 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-04-09 08:28:55,163 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-09 08:28:55,163 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-09 16:10:45,781 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-09 16:10:45,781 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-09 16:10:45,781 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-09 16:10:51,806 INFO Returncode: 0
 STDOUT: Looking for updates?
 Nothing to do.
 
 STDERR: 
-[AutoFlatpaks] 2023-04-01 12:07:05,199 INFO Failed to parse: "Looking for updates?"
-[AutoFlatpaks] 2023-04-01 12:07:05,199 INFO Failed to parse: "Nothing to do."
-[AutoFlatpaks] 2023-04-01 13:04:53,025 INFO Received request for list of available updates
-[AutoFlatpaks] 2023-04-01 13:04:53,026 INFO Digest CLI output: flatpak update --no-deps
-[AutoFlatpaks] 2023-04-01 13:04:53,026 INFO Calling python subprocess: "flatpak update --no-deps"
-[AutoFlatpaks] 2023-04-01 13:04:53,868 INFO Returncode: 0
+[AutoFlatpaks] 2023-04-09 16:10:51,806 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-09 16:10:51,806 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-09 16:14:13,801 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-09 16:14:13,801 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-09 16:14:13,801 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-09 16:14:14,587 INFO Returncode: 0
 STDOUT: Looking for updates?
 Nothing to do.
 
 STDERR: 
-[AutoFlatpaks] 2023-04-01 13:04:53,868 INFO Failed to parse: "Looking for updates?"
-[AutoFlatpaks] 2023-04-01 13:04:53,868 INFO Failed to parse: "Nothing to do."
-[AutoFlatpaks] 2023-04-01 13:26:28,771 INFO Received request for list of available updates
-[AutoFlatpaks] 2023-04-01 13:26:28,771 INFO Digest CLI output: flatpak update --no-deps
-[AutoFlatpaks] 2023-04-01 13:26:28,771 INFO Calling python subprocess: "flatpak update --no-deps"
-[AutoFlatpaks] 2023-04-01 13:26:30,146 INFO Returncode: 0
+[AutoFlatpaks] 2023-04-09 16:14:14,587 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-09 16:14:14,587 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-09 20:30:35,866 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-09 20:30:35,866 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-09 20:30:35,866 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-09 20:30:37,749 INFO Returncode: 0
 STDOUT: Looking for updates?
 Nothing to do.
 
 STDERR: 
-[AutoFlatpaks] 2023-04-01 13:26:30,146 INFO Failed to parse: "Looking for updates?"
-[AutoFlatpaks] 2023-04-01 13:26:30,146 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-09 20:30:37,749 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-09 20:30:37,749 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 06:28:09,067 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 06:28:09,068 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 06:28:09,068 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 06:28:11,842 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 06:28:11,842 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 06:28:11,842 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 08:09:51,338 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 08:09:51,338 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 08:09:51,338 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 08:09:53,764 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 08:09:53,764 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 08:09:53,764 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 09:53:22,786 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 09:53:22,788 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 09:53:22,788 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 09:53:24,066 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 09:53:24,066 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 09:53:24,066 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 11:36:29,916 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 11:36:29,916 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 11:36:29,916 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 11:36:32,482 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 11:36:32,483 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 11:36:32,483 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 13:19:16,819 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 13:19:16,819 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 13:19:16,819 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 13:19:18,874 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 13:19:18,874 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 13:19:18,874 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 15:04:39,298 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 15:04:39,298 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 15:04:39,299 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 15:04:41,423 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 15:04:41,423 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 15:04:41,423 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 19:46:49,825 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 19:46:49,826 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 19:46:49,826 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 19:48:17,081 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 19:48:17,081 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 19:48:17,082 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 20:01:53,490 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 20:01:53,490 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 20:01:53,490 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 20:01:54,114 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 20:01:54,114 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 20:01:54,114 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-10 20:11:09,468 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 20:11:09,468 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 20:11:09,468 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 20:11:16,825 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	org.freedesktop.Platform.openh264	2.2.0	i	flathub	< 944.3?kB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 20:11:16,825 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 20:11:16,825 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-10 20:35:02,018 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 20:35:02,018 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 20:35:02,019 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 20:35:03,312 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	org.kde.KStyle.Adwaita	6.4	i	flathub	< 7.9?MB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 20:35:03,312 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 20:35:03,312 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-10 23:33:45,780 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-10 23:33:45,781 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-10 23:33:45,781 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-10 23:33:48,615 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	org.kde.KStyle.Adwaita	6.4	i	flathub	< 7.9?MB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-10 23:33:48,615 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-10 23:33:48,616 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-11 01:22:37,648 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-11 01:22:37,649 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-11 01:22:37,649 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-11 01:22:39,070 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	org.kde.KStyle.Adwaita	6.4	i	flathub	< 7.9?MB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-11 01:22:39,070 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-11 01:22:39,070 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-11 03:49:03,508 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-11 03:49:03,510 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-11 03:49:03,510 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-11 03:49:05,246 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	org.kde.KStyle.Adwaita	6.4	i	flathub	< 7.9?MB
+
+Proceed with these changes to the system installation? [Y/n]: n
+
+STDERR: 
+[AutoFlatpaks] 2023-04-11 03:49:05,246 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-11 03:49:05,247 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"
+[AutoFlatpaks] 2023-04-11 16:22:26,756 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-11 16:22:26,757 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-11 16:22:26,757 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-11 16:22:27,105 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-04-11 16:22:27,105 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-11 16:22:27,105 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-12 08:34:09,034 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-12 08:34:09,038 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-12 08:34:09,038 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-12 08:34:09,520 INFO Returncode: 0
+STDOUT: Looking for updates?
+Nothing to do.
+
+STDERR: F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform/x86_64/6.4 is already installed: No such ref 'runtime/org.kde.Platform/x86_64/6.4' in remote flathub
+F: Warning: Treating remote fetch error as non-fatal since runtime/org.kde.Platform.Locale/x86_64/6.4 is already in
+[AutoFlatpaks] 2023-04-12 08:34:09,520 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-12 08:34:09,520 INFO Failed to parse: "Nothing to do."
+[AutoFlatpaks] 2023-04-12 17:17:57,118 INFO Received request for list of available updates
+[AutoFlatpaks] 2023-04-12 17:17:57,121 INFO Digest CLI output: flatpak update --no-deps
+[AutoFlatpaks] 2023-04-12 17:17:57,121 INFO Calling python subprocess: "flatpak update --no-deps"
+[AutoFlatpaks] 2023-04-12 17:17:59,089 INFO Returncode: 1
+STDOUT: Looking for updates?
+
+
+ 1.	   	com.protonvpn.www.Locale	stable	u	flathub	< 2.9?MB (partial)
+ 2.	   	com.protonvpn.www	stable	u	flathub	< 15.7?MB
+ 3.	   	org.gnome.Platform.Locale	44	u	flathub	< 340.4?MB (partial)
+ 4.	   	org.gnome.Platform	44	u	flathub	< 326.1?MB
+ 5.	   	org.kde.KStyle.Adwaita	6.4	i
+STDERR: 
+[AutoFlatpaks] 2023-04-12 17:17:59,089 INFO Failed to parse: "Looking for updates?"
+[AutoFlatpaks] 2023-04-12 17:17:59,090 INFO Failed to parse: "Proceed with these changes to the system installation? [Y/n]: n"

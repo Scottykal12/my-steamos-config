@@ -45,3 +45,123 @@ client_session: <aiohttp.client.ClientSession object at 0x7f48f6301c00>
 
 [2023-03-28 12:38:05,357][INFO]: Unloaded SteamGridDB
 
+[2023-04-08 09:55:58,188][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,189][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,189][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,432][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,433][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,433][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,433][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,433][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,433][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,433][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,433][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,433][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,433][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,433][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,434][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,434][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,434][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,435][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,435][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,435][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,435][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,435][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:58,435][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,435][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:58,435][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,435][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:58,433][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:55:59,197][INFO]: Calling Loader unload function.
+[2023-04-08 09:55:59,197][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:55:59,197][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,356][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,356][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,356][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,356][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,356][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,356][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,356][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,356][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,357][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,357][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,357][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,357][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,360][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,360][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,360][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,360][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,360][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,360][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,360][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,361][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,361][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,362][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,363][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,363][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,363][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,363][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,364][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,382][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,383][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,383][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,383][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,383][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,383][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,383][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,383][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,383][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,383][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,383][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,383][INFO]: Calling Loader unload function.
+[2023-04-08 09:56:00,383][INFO]: Unloaded SteamGridDB
+
+[2023-04-08 09:56:00,383][INFO]: Attempting to unload with plugin SteamGridDB's "_unload" function.
+
+[2023-04-08 09:56:00,383][INFO]: Unloaded SteamGridDB
+

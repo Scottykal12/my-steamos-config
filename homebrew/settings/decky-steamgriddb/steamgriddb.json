@@ -1,6 +1,6 @@
 {
     "experiment_squares": false,
-    "plugin_use_count": 25,
+    "plugin_use_count": 32,
     "zoomlevel_icon": 110,
     "filters_grid_p": {
         "styles": [
@@ -20,8 +20,8 @@
             "image/jpeg",
             "image/webp"
         ],
-        "animated": true,
-        "_static": false,
+        "animated": false,
+        "_static": true,
         "adult": false,
         "humor": true,
         "epilepsy": true,
@@ -44,7 +44,7 @@
             "image/jpeg",
             "image/webp"
         ],
-        "animated": true,
+        "animated": false,
         "_static": true,
         "adult": false,
         "humor": true,
@@ -76,7 +76,7 @@
             "image/jpeg",
             "image/webp"
         ],
-        "animated": true,
+        "animated": false,
         "_static": true,
         "adult": false,
         "humor": true,

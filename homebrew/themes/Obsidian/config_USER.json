@@ -1,1 +1,1 @@
-{"active": false, "Main Color": "Black"}
+{"active": true, "Main Color": {"value": "Black", "components": {"Background Color": "#000"}}}
